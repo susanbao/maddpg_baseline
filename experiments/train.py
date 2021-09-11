@@ -4,6 +4,10 @@ import tensorflow as tf
 import time
 import pickle
 
+sys.path.append('../')
+sys.path.append('../../')
+sys.path.append('../../../')
+
 import maddpg.common.tf_util as U
 from maddpg.trainer.maddpg import MADDPGAgentTrainer
 import tensorflow.contrib.layers as layers
