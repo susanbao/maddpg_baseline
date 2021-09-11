@@ -3,6 +3,7 @@ import numpy as np
 import tensorflow as tf
 import time
 import pickle
+import sys
 
 sys.path.append('../')
 sys.path.append('../../')
